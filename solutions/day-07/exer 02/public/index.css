@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #60dafb;
+    font-weight: normal;
+    border-bottom: 1px solid white;
+}
+
+.header-wrapper {
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+}
+
+main {
+    font-family: Oswald;
+    width: 100%;
+}
+
+.UserCard {
+    width: 100%;
+}
+
+.UserCard-wrapper {
+    display: block;
+    margin: auto;
+    width: 85%;
+    padding: 20px 0;
+}
+  
+.programmer {
+    font-family: Arial, Helvetica, sans-serif;   
+    margin: 25px 0;
+}
+  
+.eu {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.eu h3 {
+    display: inline;
+    font-weight: normal;
+    margin-top: 15px;
+}
+  
+.eu img {
+    width: 100%;
+    border-radius: 50%;
+}
+  
+ul {
+    list-style-type: none;
+}
+  
+.skills {
+    margin-top: 15px;
+    color: white;
+}
+  
+.skills button {
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #81cfe6;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;   
+    background-color: #2ccece;
+    color: white;
+    text-align: center;
+}
+  
+.juntou-se{
+    font-size: 11pt;
+    opacity: 0.7; 
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #6cf;
+    border-top: 1px solid white;
+}
+  
+.footer-wrapper {
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+}

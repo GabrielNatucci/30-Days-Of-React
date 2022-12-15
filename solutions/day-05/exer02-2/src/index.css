@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Oswald;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  padding: 25px;
+  width: 85%;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #c0e5f4;
+}
+
+.app-wrapper h1{
+  font-weight: normal;
+}
+
+.input-text {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+}
+
+.input-text::-webkit-input-placeholder {
+  opacity: 0.8;
+}
+
+.inputs {
+  margin: 35px 0;
+}
+
+.Botao {
+  background-color: #f37473;
+  color: white;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+}

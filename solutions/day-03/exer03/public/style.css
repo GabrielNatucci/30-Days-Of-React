@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f1f7;
+}
+
+main {
+  font-family: Oswald;  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-wrapper {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 85%;
+}
+
+.programmer {
+  font-family: Arial, Helvetica, sans-serif;   
+  margin: 25px 0;
+}
+
+.eu {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eu h3 {
+  display: inline;
+  font-weight: normal;
+  margin-top: 15px;
+  letter-spacing: 4px;
+}
+
+.eu img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skills {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: white;
+}
+
+.skills span {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;   
+  background-color: #2ccece;
+  text-align: center;
+}
+
+.juntou-se{
+  font-size: 11pt;
+  opacity: 0.7; 
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+
+
+

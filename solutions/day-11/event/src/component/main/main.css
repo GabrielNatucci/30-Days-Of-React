@@ -1,0 +1,11 @@
+.main-wrapper {
+    padding: 20px;
+    width: 20%;
+    font-weight: bold;
+    font-size: 25pt;
+    background-color: #61dbfc;
+    color: #474748;
+    text-shadow: 2px 2px 1px white;
+    position: absolute;
+    user-select: none;
+}
